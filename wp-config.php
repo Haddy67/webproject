@@ -19,13 +19,13 @@
 
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
-define('DB_NAME', 'votre_nom_de_bdd');
+define('DB_NAME', 'itgmsi');
 
 /** Utilisateur de la base de données MySQL. */
-define('DB_USER', 'votre_utilisateur_de_bdd');
+define('DB_USER', 'root');
 
 /** Mot de passe de la base de données MySQL. */
-define('DB_PASSWORD', 'votre_mdp_de_bdd');
+define('DB_PASSWORD', '');
 
 /** Adresse de l'hébergement MySQL. */
 define('DB_HOST', 'localhost');
@@ -49,14 +49,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here'); 
-define('SECURE_AUTH_KEY',  'put your unique phrase here'); 
-define('LOGGED_IN_KEY',    'put your unique phrase here'); 
-define('NONCE_KEY',        'put your unique phrase here'); 
-define('AUTH_SALT',        'put your unique phrase here'); 
-define('SECURE_AUTH_SALT', 'put your unique phrase here'); 
-define('LOGGED_IN_SALT',   'put your unique phrase here'); 
-define('NONCE_SALT',       'put your unique phrase here'); 
+define('AUTH_KEY',         '|Y=w2Q52S6TAg/)(:{VI=Yl4+-DX1 ?ufH9Q?S---@W*5I4t{=[C !Pj4kINK`fd');
+define('SECURE_AUTH_KEY',  '&J}xzu%n51w|!gRT|ls+x[).(O).iEFTlcdQ;[g>ddfXSE=+JSYAVam>+L+44dxU');
+define('LOGGED_IN_KEY',    'f[ZY+KhJm8{{U_h^Ms-&}MJ[|[(,R,CD(aiFEi.0!j !A.*sF[DWV>_Z;)[Y[J-%');
+define('NONCE_KEY',        'hr@Z+H.&:vJAVn&75NkL{(iabAb-E:l_#w(B$.:`@bvB?RofI,v7FU6QSfsk/pTm');
+define('AUTH_SALT',        'URhwB-5/Af-Ffv-pv{,Zjrhu]SR_[Np{DoB3>D3^|5O~Ez[[j2OWe>0UQW--#_?P');
+define('SECURE_AUTH_SALT', 'qW5,*a:L`LWckqB?YC-_kCD@0_3(u K^uQ;]!!!5s oc+iJKAFcblg$j#Y+oAM|@');
+define('LOGGED_IN_SALT',   'e.Q6 r5b)13hHyE27m##:%ZF8qdOW]ZyK0]9C!N=LG%q/)!!h Xm$JHHM<q& Ob|');
+define('NONCE_SALT',       ';[3>vIdG5YcUr/(q@Cs-QZXh&|+hj$#mT%(`!$[Q|w]B+[hJMC8^]G-lWT]x$ENO');
 /**#@-*/
 
 /**
@@ -66,7 +66,7 @@ define('NONCE_SALT',       'put your unique phrase here');
  * si vous leur donnez chacune un préfixe unique. 
  * N'utilisez que des chiffres, des lettres non-accentuées, et des caractères soulignés!
  */
-$table_prefix  = 'wp_';
+$table_prefix  = 'gmi_wp_';
 
 /**
  * Langue de localisation de WordPress, par défaut en Anglais.
